@@ -1,10 +1,9 @@
-*{
-  color: black;
-}
+
 #navbar, header{
   padding: 15px;
   text-align: center;
   font-family: "monaco", monospace;
+  color: white;
 }
 #Modal-cont{
   display: block;
@@ -54,3 +53,184 @@
 
 
 /*hide logput button*/
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+}
+main{
+  background-color: #FEFFFE;
+  color: black;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  padding: 15px;
+
+  overflow: auto;
+  padding-bottom: 100px;
+  min-height: calc(100vh  -  70px - 85px);
+}
+footer{
+  margin-top: auto;
+  background-color: #FEFFFE;
+  color:#003554;
+}
+/*nav bar styling */
+.nav-Container{
+  width: 100%;
+  background-color: #003554;
+  color: white;
+
+}
+
+#navBar{
+  display: grid;
+  grid-template-columns: 0.2fr auto 1fr;
+  align-items: center;
+  height: 80px;
+  width: 90%;
+  max-width: 1720px;
+  margin: 0 auto;
+}
+
+#navBar-logo{
+  color: white;
+  justify-self: start;
+  margin-left: 20px;
+}
+
+#navBar-logo{
+  cursor:pointer;
+}
+
+#nav-menu{
+  display: grid;
+  grid-template-columns: repeat(5,auto);
+  list-style: none;
+  text-align: center;
+  width: 70%
+  justify-self:end;
+}
+
+.navBar-Links{
+  color:white;
+  text-decoration: none;
+}
+.navBar-Links:hover{
+  color: #E3B23C;
+  border-radius: 3px solid # #DA2C38;
+  transition: all 0.2s ease-out;
+}
+.navBar-Links-btn{
+  background-color: #DA2C38;
+  padding: 6px 16px;
+  border-radius: 10px;
+}
+
+.navBar-Links-btn:hover{
+  padding: 5px 15px;
+  border-radius: 6px;
+  border: solid 1px #DA2C38;
+  transition: all 0.3s ease-out;
+}
+#foot_btn{
+  background-color: transparent;
+  color: #003554;
+  border: transparent;
+  padding-left: 10px;
+  margin: 4px 2px;
+}
+
+
+
+.inactiveLink {
+   pointer-events: none;
+   cursor: default;
+   color : #88A0A8;
+}
+
+
+/* Main part CSS*/
+
+#home-Container{
+  display: block;
+  background-color: white;
+  color: black;
+  min-height: 100vh - 250px;
+  min-width: 100%;
+}
+#maps-Container{
+  display: none;
+  background-color: white;
+  color: black;
+  min-height: 100vh;
+  min-width: 100%;
+}
+#weather-Container{
+  display: none;
+  background-color: white;
+  color: black;
+  min-height: 100vh;
+  min-width: 100%;
+}
+#currency-Container{
+  display: none;
+  background-color: white;
+  color: black;
+  min-height: 100vh;
+  min-width: 100%;
+}
+
+
+/*after containers => inside style*/
+#login-Google{
+  border-radius: 12px;
+  padding: 6px 16px;
+  background-color: #5C95FF;
+  color: white;
+  border: none;
+
+}
+
+#login-Google:hover{
+  border-radius: 12px;
+  padding: 6px 16px;
+  border: solid 2px #DA2C38;
+  transition: all 0.3s ease-out;
+  font-size: 18px;
+}
+
+#info-container-NOT{
+  text-align: center;
+  color: black;
+  padding: 6px;
+  font-family: "monaco",monospace;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#info-p{
+  font-size: 18px;
+  font-weight: normal;
+}
+
+
+#info-container-YES{
+  text-align:left;
+  color: black;
+  padding: 6px;
+  padding-top: 15px;
+  font-family: "monaco",monospace;
+  font-size: 18px;
+}
+
+#home-weather_btn{
+  margin-top: 10px;
+}
+
+#currency-home-tittle{
+  margin-top: 20px;
+}
