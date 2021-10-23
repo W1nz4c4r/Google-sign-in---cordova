@@ -142,7 +142,7 @@ function weatherOnClick(){
   var weather_BTN = document.getElementById("weather-Nav-Btn");
   var weather_Cont = document.getElementById("weather-Container");
   select_Nav_item(weather_BTN, weather_Cont);
-  doweather();
+  doWeather();
 }
 
 function currencyOnClick(){
@@ -150,6 +150,7 @@ function currencyOnClick(){
   var currency_BTN = document.getElementById("currency-Nav-Btn");
   var currency_Cont = document.getElementById("currency-Container");
   select_Nav_item(currency_BTN, currency_Cont);
+  doCurrency();
 }
 
 // helper functions

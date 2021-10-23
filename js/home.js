@@ -54,7 +54,8 @@ function home_Action(){
     home_container.style.display = "none";
     //show weather container
     weather_container.style.display = "block";
-
+    //call the page function
+    doWeather();
 
   });
 
@@ -69,7 +70,8 @@ function home_Action(){
     home_container.style.display = "none";
     //show weather container
     currency_container.style.display = "block";
-
+    //call the page function
+    doCurrency();
 
   });
 }

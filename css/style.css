@@ -234,3 +234,34 @@ footer{
 #currency-home-tittle{
   margin-top: 20px;
 }
+
+
+/*Weather container part*/
+#weather-Tittle, #home-tittle, #maps-Tittle, #currency-Tittle{
+  font-family: 'Pacifico', cursive;
+}
+
+
+#questionFORM{
+  text-align: center;
+  padding: 35px 0;
+  margin:auto;
+  display: block;
+}
+
+#Go_button, #location_Button, #foot_btn{
+  background-color: transparent;
+  border: transparent;
+  padding-left: 10px;
+  margin: 4px 2px;
+}
+
+#Results{
+  color: black;
+  font-family: "monaco", monospace;
+  padding-left: 10px;
+  display: none;
+  text-align: center;
+  padding: 45px 0;
+  margin: auto;
+}
