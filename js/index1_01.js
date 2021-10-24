@@ -135,6 +135,7 @@ function mapsOnClick(){
   var maps_BTN = document.getElementById("maps-Nav-Btn");
   var maps_Cont = document.getElementById("maps-Container");
   select_Nav_item(maps_BTN, maps_Cont);
+  onMap();
 }
 
 function weatherOnClick(){

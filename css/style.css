@@ -166,21 +166,21 @@ footer{
   display: none;
   background-color: white;
   color: black;
-  min-height: 100vh;
+  min-height: 100vh - 250px;
   min-width: 100%;
 }
 #weather-Container{
   display: none;
   background-color: white;
   color: black;
-  min-height: 100vh;
+  min-height: 100vh - 250px;
   min-width: 100%;
 }
 #currency-Container{
   display: none;
   background-color: white;
   color: black;
-  min-height: 100vh;
+  min-height: 100vh - 250px;
   min-width: 100%;
 }
 
@@ -255,6 +255,18 @@ footer{
   padding-left: 10px;
   margin: 4px 2px;
 }
+#map{
+  margin-top: 15px;
+  text-align: center;
+  height: 500px;
+  width: 100%;
+  display: none;
+  border-radius: 4px;
+  margin-bottom: 15px;
+
+}
+
+
 
 #Results{
   color: black;
@@ -264,4 +276,51 @@ footer{
   text-align: center;
   padding: 45px 0;
   margin: auto;
+}
+
+
+#backBTN{
+  margin-top:15px;
+  text-align: center;
+  background-color: transparent;
+  border-radius: 4px;
+  font-size: 18px;
+  margin: 15px;
+}
+
+#result-map-btn{
+  margin-top:15px;
+  text-align: center;
+  background-color: transparent;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+
+
+
+table{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border: none;
+  border-spacing: 15px
+}
+
+table, tr, td{
+  border: none;
+  padding:  5px;
+  text-align: center;
+  color: black;
+  font-family: "monaco", monospace;
+  font-size: 16px;
+}
+
+
+
+#home-weather_btn, #home-currency_btn, #map-to-results-btn{
+  border-radius: 6px;
+  font-family: "monaco", monospace;
+  padding: 3px;
 }

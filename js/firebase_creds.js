@@ -1,5 +1,5 @@
 var firebaseConfig = {
-   /*YOUR FIREBASE CONFIG FILE*/
+    /*YOUR FIREBASE CREDENTIALS*/"
   };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);

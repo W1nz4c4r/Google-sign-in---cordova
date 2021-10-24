@@ -99,7 +99,21 @@
       </nav>
       <!--maps Container -->
       <div id="maps-Container">
-        <h1 id="maps-Tittle">Maps!!!</h1>
+        <h1 id="maps-Tittle">Map!</h1>
+        <div id="text-Map">
+          <p>no map will be shown until you do a search in the weather tab.</p>
+
+
+        </div>
+        <div id = "map">
+          <p>
+             esto es una pruebba
+          </p>
+          <!-- dedicated to show only the map -->
+        </div>
+        <button id="map-to-results-btn">
+          to Weather
+        </button>
       </div>
       <!-- weather container -->
       <div id="weather-Container">
@@ -126,18 +140,20 @@
         <!-- adding resutls part -->
         <div id="Results">
           <h3 id="tittle_place"></h3>
+
           <div id = "API_results">
             <!-- dedicated to print only what is received from the API -->
           </div>
           <div id="RE-search">
+            <button id= "result-map-btn">
+              Go to Map!
+            </button>
             <button id= "backBTN">
               Back
             </button>
           </div>
         </div>
 
-
-      </div>
       <!-- currency container-->
       <div id="currency-Container">
         <h1 id="currency-Tittle"> Currency!!!</h1>
@@ -211,11 +227,13 @@
 <script src="js/home.js"></script>
 <script src="js/weather.js"></script>
 <script src="js/currency.js"></script>
+<script src="js/map.js"></script>
+<script src="js/Gmap.js"></script>
 
 <!--google maps API JS -->
 <script
-src="https://maps.googleapis.com/maps/api/js?key=/*Google Maps API*/&callback=initMap&v=weekly">
-</script>
+      src="https://maps.googleapis.com/maps/api/js?key=/*YOUR GOOGLE MAPS API KEY*/&callback=initMap&v=weekly"
+    ></script>
 
 
 </body>
